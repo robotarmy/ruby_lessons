@@ -11,8 +11,10 @@ Welcome to Ruby!
         sudo gem install rspec
 
 * Configure RSpec (optional). If you're running a bash shell, you can put the following in your .bash_profile to make the output a bit nicer.
-
+  * rspec 1.3
         alias spec="spec --color --format nested"
+  * rspec 2
+        alias rspec="rspec --color --format nested"
 
 * For lesson 14
 
