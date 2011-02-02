@@ -1,5 +1,4 @@
-require "calculator"
-
+require File.join(File.dirname(__FILE__),'calculator')
 describe Calculator do
   it "should have a default name" do
       Calculator.new.name.should == "no name"
